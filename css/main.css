@@ -1186,9 +1186,6 @@ body.cp1 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp1 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp1 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -1200,6 +1197,9 @@ body.cp1 {
     body.cp1 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp1 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp1 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;
@@ -2442,9 +2442,6 @@ body.cp2 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp2 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp2 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -2456,6 +2453,9 @@ body.cp2 {
     body.cp2 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp2 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp2 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;
@@ -3698,9 +3698,6 @@ body.cp3 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp3 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp3 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -3712,6 +3709,9 @@ body.cp3 {
     body.cp3 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp3 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp3 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;
@@ -4954,9 +4954,6 @@ body.cp4 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp4 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp4 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -4968,6 +4965,9 @@ body.cp4 {
     body.cp4 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp4 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp4 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;
@@ -6210,9 +6210,6 @@ body.cp5 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp5 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp5 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -6224,6 +6221,9 @@ body.cp5 {
     body.cp5 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp5 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp5 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;
@@ -7466,9 +7466,6 @@ body.cp6 {
         background-size: cover;
         top: 0;
         left: 0; }
-        @media (max-width: 768px) {
-          body.cp6 .photo-gallery-launchpad .gallery-link--left {
-            margin-bottom: 2rem; } }
       body.cp6 .photo-gallery-launchpad .gallery-link--right {
         -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -7480,6 +7477,9 @@ body.cp6 {
     body.cp6 .photo-gallery-launchpad .gallery-headline {
       position: absolute;
       top: 45%; }
+      @media (max-width: 768px) {
+        body.cp6 .photo-gallery-launchpad .gallery-headline {
+          top: 42%; } }
       body.cp6 .photo-gallery-launchpad .gallery-headline .h2 {
         padding: 1rem 2rem;
         border: 1px solid #fff;

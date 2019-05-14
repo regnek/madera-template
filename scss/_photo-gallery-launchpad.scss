@@ -57,10 +57,6 @@
         background-size: cover;
         top: 0;
         left: 0;
-
-        @media (max-width: 768px) {
-          margin-bottom: 2rem;
-        }
       }
   
       &--right {
@@ -77,6 +73,10 @@
     .gallery-headline {
       position: absolute;
       top: 45%;
+
+      @media (max-width: 768px) {
+        top: 42%;
+      }
   
       .h2 {
         padding: 1rem 2rem;
