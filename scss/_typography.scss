@@ -94,4 +94,20 @@
   .h4 {
     margin: 0;
   }
+
+  .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: $light;
+    opacity: .15;
+    width: 100%;
+    text-align: center;
+
+    @media (max-width: 600px) {
+      transform: scale(.75);
+    }
+  }
 }

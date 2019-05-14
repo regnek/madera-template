@@ -121,6 +121,9 @@ img {
 .elegant.amenities-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
   font-family: linotype-didot, serif; }
 
+.elegant .transparent-headline {
+  font-family: linotype-didot, serif; }
+
 body.cp1 {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
@@ -190,6 +193,19 @@ body.cp1 {
         letter-spacing: .15rem; } }
   body.cp1 .h4 {
     margin: 0; }
+  body.cp1 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #C3B193;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp1 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp1 .button {
     border-top: 1px solid #C3B193;
     border-bottom: 1px solid #C3B193;
@@ -999,6 +1015,12 @@ body.cp1 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp1.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp1.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp1 .thumbnails {
     position: relative;
     z-index: 1; }
@@ -1453,6 +1475,19 @@ body.cp2 {
         letter-spacing: .15rem; } }
   body.cp2 .h4 {
     margin: 0; }
+  body.cp2 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #9AC2C5;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp2 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp2 .button {
     border-top: 1px solid #9AC2C5;
     border-bottom: 1px solid #9AC2C5;
@@ -2262,6 +2297,12 @@ body.cp2 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp2.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp2.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp2 .thumbnails {
     position: relative;
     z-index: 1; }
@@ -2716,6 +2757,19 @@ body.cp3 {
         letter-spacing: .15rem; } }
   body.cp3 .h4 {
     margin: 0; }
+  body.cp3 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #a8bcc2;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp3 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp3 .button {
     border-top: 1px solid #a8bcc2;
     border-bottom: 1px solid #a8bcc2;
@@ -3525,6 +3579,12 @@ body.cp3 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp3.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp3.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp3 .thumbnails {
     position: relative;
     z-index: 1; }
@@ -3979,6 +4039,19 @@ body.cp4 {
         letter-spacing: .15rem; } }
   body.cp4 .h4 {
     margin: 0; }
+  body.cp4 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #A5D8FF;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp4 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp4 .button {
     border-top: 1px solid #A5D8FF;
     border-bottom: 1px solid #A5D8FF;
@@ -4788,6 +4861,12 @@ body.cp4 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp4.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp4.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp4 .thumbnails {
     position: relative;
     z-index: 1; }
@@ -5242,6 +5321,19 @@ body.cp5 {
         letter-spacing: .15rem; } }
   body.cp5 .h4 {
     margin: 0; }
+  body.cp5 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #A68BA5;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp5 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp5 .button {
     border-top: 1px solid #A68BA5;
     border-bottom: 1px solid #A68BA5;
@@ -6051,6 +6143,12 @@ body.cp5 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp5.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp5.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp5 .thumbnails {
     position: relative;
     z-index: 1; }
@@ -6505,6 +6603,19 @@ body.cp6 {
         letter-spacing: .15rem; } }
   body.cp6 .h4 {
     margin: 0; }
+  body.cp6 .transparent-headline {
+    margin: 0;
+    left: 0;
+    font-size: 7.5rem;
+    line-height: 1;
+    letter-spacing: -0.625rem;
+    color: #DDFFF7;
+    opacity: .15;
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 600px) {
+      body.cp6 .transparent-headline {
+        transform: scale(0.75); } }
   body.cp6 .button {
     border-top: 1px solid #DDFFF7;
     border-bottom: 1px solid #DDFFF7;
@@ -7314,6 +7425,12 @@ body.cp6 {
       display: inline-block;
       margin: 8rem 0 0;
       left: calc(50% - 6rem); }
+  body.cp6.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type .transparent-headline {
+    position: absolute;
+    top: -4.5rem; }
+  body.cp6.neighborhood-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    content: '';
+    display: none; }
   body.cp6 .thumbnails {
     position: relative;
     z-index: 1; }

@@ -478,4 +478,23 @@
       left: calc(50% - 6rem);
     }
   }
+
+  &.neighborhood-page .intro {
+    .container {
+      & > .row:first-of-type {
+        & > .col-2:first-of-type {
+
+          .transparent-headline {
+            position: absolute;
+            top: -4.5rem;
+          }
+
+          &:after {
+            content: '';
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
