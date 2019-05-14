@@ -4,6 +4,10 @@
     color: #fff;
     background: linear-gradient(to bottom, $dark, #000);
 
+    a {
+      color: #fff;
+    }
+
     .col-2 {
       &:first-of-type {
         padding-right: 2rem;
@@ -86,10 +90,6 @@
       img {
         height: 2.5rem;
         margin-right: 2rem;
-      }
-
-      a {
-        color: #fff;
       }
     }
 

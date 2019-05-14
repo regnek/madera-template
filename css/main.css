@@ -1266,6 +1266,8 @@ body.cp1 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #1F1C29, #000); }
+    body.cp1 .footer a {
+      color: #fff; }
     body.cp1 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp1 .footer .col-2:last-of-type {
@@ -1312,8 +1314,6 @@ body.cp1 {
     body.cp1 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp1 .footer .bottom-links a {
-      color: #fff; }
     body.cp1 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp1 .footer.schedule-page .h3 {
@@ -2516,6 +2516,8 @@ body.cp2 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #272D2D, #000); }
+    body.cp2 .footer a {
+      color: #fff; }
     body.cp2 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp2 .footer .col-2:last-of-type {
@@ -2562,8 +2564,6 @@ body.cp2 {
     body.cp2 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp2 .footer .bottom-links a {
-      color: #fff; }
     body.cp2 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp2 .footer.schedule-page .h3 {
@@ -3766,6 +3766,8 @@ body.cp3 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #182C26, #000); }
+    body.cp3 .footer a {
+      color: #fff; }
     body.cp3 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp3 .footer .col-2:last-of-type {
@@ -3812,8 +3814,6 @@ body.cp3 {
     body.cp3 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp3 .footer .bottom-links a {
-      color: #fff; }
     body.cp3 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp3 .footer.schedule-page .h3 {
@@ -5016,6 +5016,8 @@ body.cp4 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #0E1428, #000); }
+    body.cp4 .footer a {
+      color: #fff; }
     body.cp4 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp4 .footer .col-2:last-of-type {
@@ -5062,8 +5064,6 @@ body.cp4 {
     body.cp4 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp4 .footer .bottom-links a {
-      color: #fff; }
     body.cp4 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp4 .footer.schedule-page .h3 {
@@ -6266,6 +6266,8 @@ body.cp5 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #36393b, #000); }
+    body.cp5 .footer a {
+      color: #fff; }
     body.cp5 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp5 .footer .col-2:last-of-type {
@@ -6312,8 +6314,6 @@ body.cp5 {
     body.cp5 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp5 .footer .bottom-links a {
-      color: #fff; }
     body.cp5 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp5 .footer.schedule-page .h3 {
@@ -7516,6 +7516,8 @@ body.cp6 {
     padding: 10rem 0 6rem;
     color: #fff;
     background: linear-gradient(to bottom, #093824, #000); }
+    body.cp6 .footer a {
+      color: #fff; }
     body.cp6 .footer .col-2:first-of-type {
       padding-right: 2rem; }
     body.cp6 .footer .col-2:last-of-type {
@@ -7562,8 +7564,6 @@ body.cp6 {
     body.cp6 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
-    body.cp6 .footer .bottom-links a {
-      color: #fff; }
     body.cp6 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp6 .footer.schedule-page .h3 {
