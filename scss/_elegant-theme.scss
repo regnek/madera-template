@@ -1,0 +1,84 @@
+.elegant {
+
+  // navigation
+  .navigation {
+
+    // logo in navigation
+    .logo {
+      &_name {
+        font-family: $font--serif;
+      }
+    }
+
+    
+  }
+
+  .menu {
+    &_link {
+      font-family: $font--serif;
+      text-transform: none !important;
+      letter-spacing: 0 !important;
+      font-size: 1.25rem !important;
+      font-weight: 400 !important;
+
+      &:after {
+        margin-top: -5px !important;
+      }
+    }
+
+    .contact-info {
+
+      a {
+        font-family: $font--serif;
+        text-transform: none !important;
+        letter-spacing: 0 !important;
+        font-size: 1.25rem !important;
+        font-weight: 400 !important;
+      }
+    }
+  }
+
+  .sub-headline {
+    font-family: $font--serif;
+    font-style: italic;
+  }
+
+  .scroll-down {
+    font-family: $font--serif;
+    font-style: italic;
+  }
+
+  .view-floor-plans {
+    font-family: $font--serif;
+  }
+
+  .fancy-type {
+    font-family: $font--serif;
+  }
+
+  .read-link {
+    font-family: $font--serif;
+  }
+
+  .contact > .row:first-of-type > .col-2:first-of-type:after {
+    font-family: $font--serif;
+  }
+
+  .intro .col-2.bordered:after {
+    font-family: $font--serif;
+  }
+
+  .floorplan_number {
+    font-family: $font--serif;
+    font-style: italic;
+  }
+  
+  .floorplan_price {
+    font-family: $font--serif;
+  }
+
+  &.amenities-page .intro .container > .row:first-of-type > .col-2:first-of-type:after {
+    font-family: $font--serif;
+  }
+
+}

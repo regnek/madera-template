@@ -1,0 +1,92 @@
+@mixin typography($dark, $light) {
+  font-family: $font--sans;
+  font-weight: 400;
+  line-height: 1.55;
+  
+  .logo {
+    * {
+      margin: 0;
+    }
+  
+    &_name {
+      font-weight: 700;
+      color: $light;
+      font-size: 2.25rem;
+      line-height: 1;
+
+      @media (max-width: 768px) {
+        font-size: 1.75rem;
+      }
+
+      @media (max-width: 600px) {
+        font-size: 1.5rem;
+      }
+    }
+  
+    &_subline {
+      font-size: 1rem;
+      text-transform: uppercase;
+      line-height: 1;
+      letter-spacing: 0.3125rem;
+      opacity: .9;
+
+      @media (max-width: 768px) {
+        font-size: .75rem;
+      }
+
+      @media (max-width: 600px) {
+        font-size: .5rem;
+      }
+    }
+  }
+  
+  .h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    line-height: 1;
+
+    @media (max-width: 992px) {
+      font-size: 2.5rem;
+      letter-spacing: .4rem;
+    }
+  }
+  
+  .sub-headline {
+    font-size: 1.5rem;
+
+    @media (max-width: 992px) {
+      font-size: 1rem;
+    }
+  }
+  
+  .h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    line-height: 1;
+    margin: 0;
+
+    @media (max-width: 992px) {
+      font-size: 2rem;
+      letter-spacing: .125rem;
+    }
+  }
+  
+  .h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    line-height: 1;
+    margin: 0;
+
+    @media (max-width: 992px) {
+      font-size: 1.25rem;
+      letter-spacing: .15rem;
+    }
+  }
+
+  .h4 {
+    margin: 0;
+  }
+}

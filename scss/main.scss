@@ -1,0 +1,152 @@
+// basic reset
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+// utilities
+@import 'variables';
+@import 'layout';
+@import 'typography';
+@import 'components';
+
+// modules
+@import 'navigation';
+@import 'header';
+@import 'intro';
+@import 'thumbnails';
+@import 'floorplans';
+@import 'asmartment';
+@import 'photo-gallery-launchpad';
+@import 'footer';
+
+// no images
+@import 'no-images';
+
+// optional serif theme
+@import 'elegant-theme';
+
+// color palettes
+body.cp1 {
+  $dark: #1F1C29;
+  $light: #C3B193;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}
+
+body.cp2 {
+  $dark: #272D2D;
+  $light: #9AC2C5;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}
+
+body.cp3 {
+  $dark: #182C26;
+  $light: #a8bcc2;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}
+
+body.cp4 {
+  $dark: #0E1428;
+  $light: #A5D8FF;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}
+
+body.cp5 {
+  $dark: #36393b;
+  $light: #A68BA5;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}
+
+body.cp6 {
+  $dark: #093824;
+  $light: #DDFFF7;
+  @include typography($dark, $light);
+  @include components($dark, $light);
+  @include navigation($dark, $light);
+  @include header($dark, $light);
+  @include intro($dark, $light);
+  @include thumbnails($dark, $light);
+  @include floorplans($dark, $light);
+  @include asmartment($dark, $light);
+  @include photo-gallery-launchpad($dark, $light);
+  @include footer($dark, $light);
+
+  &.internal {
+    background: $dark;
+  }
+}

@@ -1,0 +1,152 @@
+@mixin footer($dark, $light) {
+  .footer {
+    padding: 10rem 0 6rem;
+    color: #fff;
+    background: linear-gradient(to bottom, $dark, #000);
+
+    .col-2 {
+      &:first-of-type {
+        padding-right: 2rem;
+      }
+      &:last-of-type {
+        padding-left: 2rem;
+        
+        @media (max-width: 992px) {
+          padding-left: 0;
+          margin-top: 4rem;
+        }
+      }
+
+      .col-2 {
+        padding: 0;
+        
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    .h3 {
+      color: $light;
+      margin-bottom: 2.5rem;
+    }
+
+    .h4 {
+      margin-bottom: 1rem;
+    }
+
+    i {
+      display: inline-block;
+      margin-right: 1rem;
+      color: $light;
+    }
+
+    b.phone-number {
+      white-space: nowrap;
+    }
+
+    form {
+      margin-top: 2em;
+    }
+
+    &_contact-info {
+      margin-top: 3rem;
+    }
+
+    .map {
+      width: 100%;
+      margin: 5rem 0;
+
+      iframe {
+        width: 100%;
+        height: 30vw;
+      }
+    }
+
+    .bottom-links {
+      .row {
+        align-items: center;
+
+        .col-2 {
+
+          @media (max-width: 992px) {
+            text-align: center;
+          }
+
+          &:first-of-type {
+            padding-right: 0;
+
+            @media (max-width: 600px) {
+              transform: scale(.75);
+            }
+          }
+        }
+      }
+
+      img {
+        height: 2.5rem;
+        margin-right: 2rem;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+
+    &.schedule-page {
+      padding-top: 15rem;
+
+      .h3 {
+        color: #fff;
+      }
+
+      .contact {
+        & > .row {
+          &:first-of-type {
+            & > .col-2 {
+              &:first-of-type {
+                border: 1px solid #fff;
+                padding: 2rem;
+                position: relative;
+                z-index: 1;
+    
+                .h3 {
+                  text-align: center;
+                }
+
+                &:after {
+                  content: 'Schedule';
+                  position: absolute;
+                  margin: 0;
+                  top: -4.5rem;
+                  left: 0;
+                  font-size: 7.5rem;
+                  line-height: 1;
+                  letter-spacing: -0.625rem;
+                  color: $light;
+                  opacity: .15;
+                  z-index: -1;
+                  width: 100%;
+                  text-align: center;
+
+                  @media (max-width: 600px) {
+                    transform: scale(.75);
+                  }
+                }
+              }
+
+              &:last-of-type {
+                padding-top: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .intro + .footer {
+    top: -5rem;
+    z-index: -1;
+  }
+}

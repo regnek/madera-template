@@ -1,0 +1,59 @@
+@mixin thumbnails($dark, $light) {
+  .thumbnails {
+    position: relative;
+    z-index: 1;
+
+    &.neighborhood {
+      top: -6rem;
+      margin-bottom: -4rem;
+    }
+  
+    .thumbnail {
+      height: 35vw;
+      margin: 1rem 0;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .25);
+      cursor: pointer;
+      transition: .2s ease;
+  
+      &:hover {
+        transform: translateY(-.25rem);
+        box-shadow: 0 .75rem 1.5rem rgba(0, 0, 0, .3);
+      }
+  
+      &-1 {
+        background: url('../img/thumbnail1.jpg') center no-repeat;
+        background-size: cover;
+
+        &.neighborhood-thumbnail {
+          background: url('../img/neighborhood-thumbnail1.jpg') center no-repeat;
+          background-size: cover;
+        }
+      }
+  
+      &-2 {
+        background: url('../img/thumbnail2.jpg') center no-repeat;
+        background-size: cover;
+
+        &.neighborhood-thumbnail {
+          background: url('../img/neighborhood-thumbnail2.jpg') center no-repeat;
+          background-size: cover;
+        }
+      }
+  
+      &-3 {
+        background: url('../img/thumbnail3.jpg') center no-repeat;
+        background-size: cover;
+
+        &.neighborhood-thumbnail {
+          background: url('../img/neighborhood-thumbnail3.jpg') center no-repeat;
+          background-size: cover;
+        }
+      }
+  
+      @media (min-width: 993px) {
+        height: 20vw;
+        margin: 0 .5rem;
+      }
+    }
+  }
+}

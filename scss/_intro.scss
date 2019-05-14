@@ -1,0 +1,481 @@
+@mixin intro($dark, $light) {
+  .intro {
+    background: #000;
+    color: #fff;
+    padding: 5rem 0 10rem;
+    position: relative;
+  
+    &-info {
+      position: relative;
+      left: 5rem;
+      padding: 3rem;
+      border: 1px solid $light;
+      z-index: 2;
+
+      @media (max-width: 992px) {
+        left: 0;
+      }
+    }
+  
+    .row {
+      .col-2 {
+        &:first-of-type {
+          padding-left: 5vw;
+
+          @media (max-width: 992px) {
+            padding-left: 0;
+          }
+        }
+  
+        &:last-of-type {
+          margin-top: 7rem;
+          width: 75%;
+
+          @media (max-width: 992px) {
+            margin-top: 10rem;
+            width: 100%;
+          }
+  
+          .row {
+            &:first-of-type {
+              .column {
+                &:first-of-type {
+                  width: 67.5%;
+
+                  @media (max-width: 992px) {
+                    width: 100%;
+                  }
+                }
+  
+                &:last-of-type {
+                  width: calc(32.5% - 1rem);
+                  margin-left: 1rem;
+
+                  @media (max-width: 992px) {
+                    width: 100%;
+                    margin-left: 0;
+                    position: absolute;
+                    bottom: -7rem;
+                    z-index: 2;
+                  }
+                }
+              }
+            }
+  
+            &:last-of-type {
+              .column {
+                width: 100%;
+                margin-top: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .fancy-type {
+      position: absolute;
+      width: auto;
+      margin-top: -2rem;
+      z-index: 1;
+      opacity: .6;
+  
+      p {
+        position: relative;
+        margin: 0;
+        font-size: 7.5rem;
+        line-height: 1;
+        letter-spacing: -0.625rem;
+        color: darken($light, 50%);
+  
+        &:nth-of-type(2) {
+          opacity: 1;
+          position: absolute;
+          top: 1.25rem;
+          right: -5rem;
+          color: darken($light, 40%);
+        }
+  
+        &:last-of-type {
+          margin-top: -2rem;
+          right: -1rem;
+          position: absolute;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 15vw;
+          line-height: 17.5vw;
+          letter-spacing: -1.25vw;
+        }
+      }
+    }
+  
+    .angle-img {
+      position: relative;
+  
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 6.5rem;
+        background: #000;
+        transform: skew(-10deg);
+        top: 0;
+        left: -2.5rem;
+      }
+  
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 3rem;
+        background: #000;
+        transform: skew(-10deg);
+        top: 0;
+        right: -1.5rem;
+      }
+      
+      &1 {
+        background: url('../img/angle-img1.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 12.5rem;
+      }
+  
+      &2 {
+        background: url('../img/angle-img2.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 12.5rem;
+  
+        &:before {
+          left: -5rem;
+
+          @media (max-width: 992px) {
+            left: -2.5rem;
+          }
+        }
+      }
+    }
+  
+    .view-floor-plans {
+      height: 100%;
+      font-size: 1.5rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      @media (max-width: 1280px) {
+        font-size: 1.25rem;
+      }
+
+      @media (max-width: 1050px) {
+        font-size: 1rem;
+      }
+
+      @media (max-width: 992px) {
+        font-size: 1.5rem;
+        width: 100%;
+      }
+  
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: $light;
+
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+  
+      &:after {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: -2rem;
+      }
+  
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: -.5rem;
+  
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 0; 
+          height: 0; 
+          border-top: .5rem solid transparent;
+          border-bottom: .5rem solid transparent;
+          border-left: 1rem solid $light;
+          right: .25rem;
+          bottom: -.45rem;
+          transition: right .2s ease;
+        }
+  
+        &:after {
+          content: '';
+          display: block;
+          position: relative;
+          width: 90%;
+          height: 2px;
+          background: $light;
+          margin-top: 1rem;
+          left: 0;
+          transition: left .2s ease;
+        }
+  
+        &:hover {
+          &:before {
+            right: 0;
+          }
+  
+          &:after {
+            left: .25rem;
+          }
+        }
+      }
+    }
+  
+    &:after {
+      content: '';
+      display: block;
+      background: #000;
+      position: absolute;
+      width: 100%;
+      height: 15vw;
+      bottom: -7vw;
+      transform: skewY(7deg);
+    }
+  }
+
+  &.internal .intro {
+    top: -7rem !important;
+    padding: 17rem 0;
+
+    .row {
+      .col-2 {
+        position: relative;
+        min-height: 300px;
+
+        &.bordered {
+          border: 1px solid $light;
+          padding: 3rem;
+
+          &:after {
+            content: 'Floorplans';
+            position: absolute;
+            margin: 0;
+            top: -4.5rem;
+            left: 0;
+            font-size: 7.5rem;
+            line-height: 1;
+            letter-spacing: -0.625rem;
+            color: $light;
+            opacity: .15;
+            width: 100%;
+            text-align: center;
+
+            @media (max-width: 600px) {
+              transform: scale(.75);
+            }
+          }
+        }
+
+        &:last-of-type {
+          width: 50%;
+          margin-top: 0;
+
+          @media (max-width: 992px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .map {
+      margin-left: 2rem;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+
+      @media (max-width: 992px) {
+        margin-left: 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  &.floorplans-page .intro {
+
+    .col-2.bordered {
+      left: -2rem;
+      height: 50%;
+    }
+  }
+
+  &.amenities-page .intro {
+    padding-bottom: 20rem;
+
+    .container {
+      display: flex;
+      align-items: center;
+
+      & > .row:first-of-type {
+        height: 100%;
+
+        & > .col-2:first-of-type {
+          padding-left: 0;
+          height: 100%;
+          position: absolute;
+
+          .row {
+            height: 50%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            margin-bottom: 2rem;
+
+            &:last-of-type {
+              top: auto;
+              bottom: -3rem;
+              display: flex;
+            }
+
+            .col-2 {
+              padding-left: 0;
+
+              &:first-of-type {
+                margin-right: .5rem;
+              }
+
+              &:last-of-type {
+                margin-left: .5rem;
+              }
+            }
+
+            @media (max-width: 992px) {
+              display: none !important;
+            }
+          }
+
+          &:after {
+            content: 'Amenities';
+            position: absolute;
+            margin: 0;
+            top: -7.5rem;
+            left: 0;
+            font-size: 7.5rem;
+            line-height: 1;
+            letter-spacing: -0.625rem;
+            color: $light;
+            opacity: .15;
+            width: 100%;
+            text-align: center;
+      
+            @media (max-width: 600px) {
+              transform: scale(.75);
+            }
+          }
+
+          .img {
+            height: 100%;
+          }
+        }
+
+        & > .col-2:last-of-type {
+          left: calc(50% - 2rem);
+
+          @media (max-width: 992px) {
+            left: 0;
+          }
+        }
+      }
+    }
+
+    .col-2.bordered {
+      left: -2rem;
+      height: 50%;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .img1 {
+      background: url('../img/amenities-intro-img1.jpg') center no-repeat;
+      background-size: cover;
+    }
+
+    .img2 {
+      background: url('../img/amenities-intro-img2.jpg') center no-repeat;
+      background-size: cover;
+    }
+
+    .img3 {
+      background: url('../img/amenities-intro-img3.jpg') center no-repeat;
+      background-size: cover;
+    }
+
+    .list-of-amenities {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      display: flex;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .col-2:first-of-type {
+        padding-left: 0;
+        margin-right: .75rem;
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+        }
+      }
+
+      .col-2:last-of-type {
+        margin-left: .75rem;
+
+        @media (max-width: 768px) {
+          margin-left: 0;
+        }
+      }
+
+      li {
+        margin-bottom: 1.5rem;
+      }
+
+      img {
+        height: 1.5rem;
+        margin-right: .5rem;
+        float: left;
+        padding-bottom: 1rem;
+        box-sizing: content-box;
+      }
+    }
+
+    .button {
+      display: inline-block;
+      margin: 8rem 0 0;
+      left: calc(50% - 6rem);
+    }
+  }
+}

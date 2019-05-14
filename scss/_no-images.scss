@@ -1,0 +1,22 @@
+.no-img {
+  .angle-img,
+  .thumbnails,
+  .photo-gallery-launchpad {
+    display: none !important;
+  }
+
+  .intro .view-floor-plans {
+    height: 13rem !important;
+    left: -13vw;
+    border: 1px solid #fff;
+
+    &:before,
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .intro .row .col-2:last-of-type .row:first-of-type .column:last-of-type {
+    width: 100% !important;
+  }
+}

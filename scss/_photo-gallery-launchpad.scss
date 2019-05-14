@@ -1,0 +1,172 @@
+@mixin photo-gallery-launchpad($dark, $light) {
+  .photo-gallery-launchpad {
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    top: -3rem;
+    margin-bottom: -3rem;
+
+    @media (max-width: 768px) {
+      height: 100vw;
+    }
+  
+    .gallery-link {
+      width: 58vw;
+      height: 100%;
+      position: absolute;
+  
+      @media (min-width: 1060px) {
+        width: 57.9vw;
+      }
+  
+      @media (min-width: 1280px) {
+        width: 57.8vw;
+      }
+  
+      @media (min-width: 1440px) {
+        width: 57.7vw;
+      }
+  
+      @media (min-width: 1600px) {
+        width: 57.6vw;
+      }
+  
+      @media (min-width: 1920px) {
+        width: 57.55vw;
+      }
+
+      @media (min-width: 2300px) {
+        width: 57.5vw;
+      }
+
+      @media (max-width: 768px) {
+        width: 100vw;
+        position: relative;
+        clip-path: none !important;
+        top: 0 !important;
+        height: 50%;
+      }
+  
+      &--left {
+        -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        background: url('../img/left-gallery-img.jpg') center no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+
+        @media (max-width: 768px) {
+          margin-bottom: 2rem;
+        }
+      }
+  
+      &--right {
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background: url('../img/right-gallery-img.jpg') center no-repeat;
+        background-size: cover;
+        top: 3rem;
+        right: 0;
+        box-shadow: -2rem 0 2rem rgba(0, 0, 0, .85);
+      }
+    }
+  
+    .gallery-headline {
+      position: absolute;
+      top: 45%;
+  
+      .h2 {
+        padding: 1rem 2rem;
+        border: 1px solid #fff;
+        border-bottom: 0;
+      }
+  
+      .sub-headline {
+        text-align: center;
+        margin: -1.25rem 0 0;
+        position: relative;
+
+        @media (max-width: 992px) {
+          margin-top: -0.85rem;
+        }
+  
+        &:before,
+        &:after {
+          content: '';
+          display: block;
+          width: 27.5%;
+          height: 1px;
+          background: #fff;
+          position: absolute;
+          top: calc(50% + 1px);
+        }
+  
+        &:after {
+          right: 0;
+        }
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .gallery-labels {
+      width: 100%;
+      position: absolute;
+      bottom: 2rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1875rem;
+
+      p {
+        display: inline-block;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        position: relative;
+      }
+
+      .left-label {
+        padding-left: 5vw;
+        background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+      }
+
+      .right-label {
+        float: right;
+        padding-right: 5vw;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+
+        @media (max-width: 768px) {
+          top: 2rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        p {
+          display: block;
+          background: transparent !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &.floorplans-page .photo-gallery-launchpad {
+    top: -8rem;
+  }
+
+  &.amenities-page .photo-gallery-launchpad {
+    top: -16rem;
+    margin-bottom: -16rem;
+  }
+}

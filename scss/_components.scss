@@ -1,0 +1,140 @@
+@mixin components($dark, $light) {
+  .button {
+    border-top: 1px solid $light;
+    border-bottom: 1px solid $light;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    display: inline-block;
+    background: rgba(0, 0, 0, .25);
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+  
+    &:before,
+    &:after {
+      content: '';
+      height: 65%;
+      width: 1px;
+      background: $light;
+      top: 35%;
+      right: auto;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      transition: .025s;
+    }
+    
+    &:after {
+      top: 0;
+      right: 0;
+      bottom: 35%;
+      left: auto;
+    }
+  }
+
+  form {
+
+    .form-field {
+      flex: 1 0 calc(50% - 1rem);
+      position: relative;
+      margin-bottom: 1rem;
+
+      &:nth-of-type(odd) {
+        margin-right: 1rem;
+
+        @media (max-width: 992px) {
+          margin-right: 0;
+        }
+      }
+
+      &:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+    }
+
+    .row {
+      &:last-of-type {
+        .form-field {
+          min-width: 100%;
+        }
+      }
+    }
+
+    label {
+      position: absolute;
+      margin-top: -.75rem;
+      margin-left: 1rem;
+      width: calc(100% - 1rem);
+
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        width: .75rem;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: -1rem;
+      }
+
+      &:after {
+        right: 0;
+        left: auto;
+      }
+
+      &.label-for-name {
+        &:after {
+          width: calc(100% - 2.8rem);
+        }
+      }
+
+      &.label-for-email {
+        &:after {
+          width: calc(100% - 2.6rem);
+        }
+      }
+
+      &.label-for-phone {
+        &:after {
+          width: calc(100% - 3rem);
+        }
+      }
+
+      &.label-for-best-time {
+        &:after {
+          width: calc(100% - 10.8rem);
+        }
+      }
+
+      &.label-for-message {
+        &:after {
+          width: calc(100% - 10.95rem);
+        }
+      }
+    }
+
+    input,
+    textarea {
+      border: 1px solid #fff;
+      border-top: 0;
+      background: transparent;
+      padding: 1rem;
+      width: 100%;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: none;
+      height: 8rem;
+    }
+  }
+}
