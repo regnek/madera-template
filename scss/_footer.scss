@@ -79,10 +79,6 @@
 
           &:first-of-type {
             padding-right: 0;
-
-            @media (max-width: 600px) {
-              transform: scale(.75);
-            }
           }
         }
       }
@@ -90,6 +86,16 @@
       img {
         height: 2.5rem;
         margin-right: 2rem;
+
+        @media (max-width: 600px) {
+          transform: scale(.75);
+          margin-right: .5rem;
+        }
+
+        @media (max-width: 400px) {
+          transform: scale(.5);
+          margin-right: 0;
+        }
       }
     }
 

@@ -1332,12 +1332,17 @@ body.cp1 {
           text-align: center; } }
       body.cp1 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp1 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp1 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp1 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp1 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp1 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp1 .footer.schedule-page .h3 {
@@ -2585,12 +2590,17 @@ body.cp2 {
           text-align: center; } }
       body.cp2 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp2 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp2 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp2 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp2 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp2 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp2 .footer.schedule-page .h3 {
@@ -3838,12 +3848,17 @@ body.cp3 {
           text-align: center; } }
       body.cp3 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp3 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp3 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp3 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp3 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp3 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp3 .footer.schedule-page .h3 {
@@ -5091,12 +5106,17 @@ body.cp4 {
           text-align: center; } }
       body.cp4 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp4 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp4 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp4 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp4 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp4 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp4 .footer.schedule-page .h3 {
@@ -6344,12 +6364,17 @@ body.cp5 {
           text-align: center; } }
       body.cp5 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp5 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp5 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp5 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp5 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp5 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp5 .footer.schedule-page .h3 {
@@ -7597,12 +7622,17 @@ body.cp6 {
           text-align: center; } }
       body.cp6 .footer .bottom-links .row .col-2:first-of-type {
         padding-right: 0; }
-        @media (max-width: 600px) {
-          body.cp6 .footer .bottom-links .row .col-2:first-of-type {
-            transform: scale(0.75); } }
     body.cp6 .footer .bottom-links img {
       height: 2.5rem;
       margin-right: 2rem; }
+      @media (max-width: 600px) {
+        body.cp6 .footer .bottom-links img {
+          transform: scale(0.75);
+          margin-right: .5rem; } }
+      @media (max-width: 400px) {
+        body.cp6 .footer .bottom-links img {
+          transform: scale(0.5);
+          margin-right: 0; } }
     body.cp6 .footer.schedule-page {
       padding-top: 15rem; }
       body.cp6 .footer.schedule-page .h3 {
