@@ -138,6 +138,10 @@ body.cp1 {
       body.cp1 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp1 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp1 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
@@ -1394,6 +1398,10 @@ body.cp2 {
       body.cp2 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp2 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp2 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
@@ -2650,6 +2658,10 @@ body.cp3 {
       body.cp3 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp3 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp3 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
@@ -3906,6 +3918,10 @@ body.cp4 {
       body.cp4 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp4 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp4 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
@@ -5162,6 +5178,10 @@ body.cp5 {
       body.cp5 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp5 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp5 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
@@ -6418,6 +6438,10 @@ body.cp6 {
       body.cp6 .h1 {
         font-size: 2.5rem;
         letter-spacing: .4rem; } }
+    @media (max-width: 600px) {
+      body.cp6 .h1 {
+        font-size: 2rem;
+        letter-spacing: .35rem; } }
   body.cp6 .sub-headline {
     font-size: 1.5rem; }
     @media (max-width: 992px) {
