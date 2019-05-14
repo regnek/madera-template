@@ -97,8 +97,8 @@
   </div>
 </footer>
 
-<script src="js/slider.js"></script>
-<script src="js/app.js"></script>
+<script src="js/slider.js?<?php echo date('Y-m-d H:i:s') ?>"></script>
+<script src="js/app.js?<?php echo date('Y-m-d H:i:s') ?>"></script>
 
 </body>
 </html>
