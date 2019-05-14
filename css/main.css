@@ -1175,6 +1175,7 @@ body.cp1 {
         body.cp1 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }
@@ -2430,6 +2431,7 @@ body.cp2 {
         body.cp2 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }
@@ -3685,6 +3687,7 @@ body.cp3 {
         body.cp3 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }
@@ -4940,6 +4943,7 @@ body.cp4 {
         body.cp4 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }
@@ -6195,6 +6199,7 @@ body.cp5 {
         body.cp5 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }
@@ -7450,6 +7455,7 @@ body.cp6 {
         body.cp6 .photo-gallery-launchpad .gallery-link {
           width: 100vw;
           position: relative;
+          -webkit-clip-path: none !important;
           clip-path: none !important;
           top: 0 !important;
           height: 50%; } }

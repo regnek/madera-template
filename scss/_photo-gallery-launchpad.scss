@@ -44,6 +44,7 @@
       @media (max-width: 768px) {
         width: 100vw;
         position: relative;
+        -webkit-clip-path: none !important;
         clip-path: none !important;
         top: 0 !important;
         height: 50%;
